@@ -1,0 +1,3 @@
+<h1>Admin</h1><form method=post>
+<input name=name placeholder='Quiz Name'><button>Erstellen</button></form>
+<ul>{% for q in quizzes %}<li><a href=/host/{{q}}>{{q}}</a></li>{% endfor %}</ul>

@@ -1,0 +1,4 @@
+<h1>Beitreten</h1><form method=post action=/join_game>
+<input name=pin placeholder=PIN><input name=name placeholder=Name>
+<select name=avatar>{% for a in avatars %}<option>{{a}}</option>{% endfor %}</select>
+<button>Start</button></form>
