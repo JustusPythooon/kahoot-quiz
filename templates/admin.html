@@ -1,0 +1,1 @@
+<link rel=stylesheet href=/static/css/style.css><div class=container><div class=card><h1>Admin</h1><form method=post><input name=quiz placeholder='Quiz Name'><button>Quiz erstellen</button></form></div><div class=card><ul>{% for q in quizzes %}<li><a href=/editor/{{q}}>{{q}}</a> – <a href=/host/{{q}}>Hosten</a></li>{% endfor %}</ul></div></div>
