@@ -1,0 +1,1 @@
+<link rel=stylesheet href=/static/css/style.css><div class=container><div class=card><h1>Avatar</h1><form method=post action=/join><input type=hidden name=pin value={{pin}}><input type=hidden name=name value={{name}}>{% for a in avatars %}<label>{{a}}<input type=radio name=avatar value={{a}}></label>{% endfor %}<button class=yellow>Start</button></form></div></div>
