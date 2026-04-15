@@ -1,5 +1,0 @@
-<h2>{{q.question}}</h2>
-<form method=post action=/answer>
-<input type=hidden name=pin value={{pin}}><input type=hidden name=name value={{name}}>
-{% for k,v in q.items() if k.startswith('option') %}<button name=ans value={{v}}>{{v}}</button><br>{% endfor %}
-</form>

@@ -1,7 +1,0 @@
-<h1>Editor {{quiz}}</h1>
-<form method=post>
-<input name=question placeholder=Frage><br>
-<select name=type><option>mc</option><option>wf</option><option>guess</option></select><br>
-<input name=option1 placeholder=A><input name=option2 placeholder=B><br>
-<input name=answer placeholder='Richtig'><br><button>Speichern</button></form>
-<ul>{% for q in questions %}<li>{{q.question}}</li>{% endfor %}</ul>
